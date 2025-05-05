@@ -1,0 +1,166 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+ul li {
+  margin: 10px;
+  cursor: pointer;
+}
+
+/* Header */
+.head-link {
+  background-color: lightgreen;
+  padding: 20px;
+  box-shadow: 2px 2px 5px grey;
+  width:100%;
+  height: auto;
+}
+
+.img-head {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px grey;
+}
+
+/* About Section */
+.about-section {
+  background-color: lightskyblue;
+  padding: 20px;
+  text-align: center;
+}
+
+.about-section h1, .about-section p {
+  margin-bottom: 20px;
+}
+
+/* Gallery Section */
+.gallery-section {
+  background-color: lightcoral;
+  padding: 20px;
+  text-align: center;
+}
+
+.gallery-container {
+  position: relative;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.gallery-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: darkgreen;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: darkolivegreen;
+}
+
+#galleryImage{
+  width: 375px;
+  border-radius: 100px;
+}
+
+/* Tabs Section */
+.tabs-section {
+  background-color: lightsalmon;
+  padding: 20px;
+  text-align: center;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tablinks {
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  border: none;
+  background-color: #ddd;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.tablinks:hover {
+  background-color: #ccc;
+}
+
+.tabcontent {
+  display: none;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+}
+
+/* Footer */
+.foot-text {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 2px 2px 5px grey;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.icons {
+  margin: 0 15px;
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+}
+
+.icons:hover {
+  opacity: 0.7;
+}
+
+/* Form Styles */
+input {
+  padding: 10px;
+  font-size: 18px;
+  margin: 10px;
+}
+
+.submit {
+  padding: 10px 20px;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.submit:hover {
+  background-color: darkgreen;
+}

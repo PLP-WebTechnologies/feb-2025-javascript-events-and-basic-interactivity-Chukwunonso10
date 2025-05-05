@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 7 Interactive Web Elements</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="head-link" id="header">
+        <div class="container">
+            <h1>Chukwunonso <span>Global</span>.</h1>
+            <ul>
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Services</li>
+                <li>Contact Us</li>
+            </ul>
+        </div>
+        <img class="img-head" src="images/nony.jpg" alt="header image">
+    </header>
+
+    <section class="about-section" id="about">
+        <h1>Welcome to My Tutorials section</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab quia nulla voluptatibus blanditiis quas, possimus rerum explicabo, maxime repudiandae saepe deserunt ea pariatur fugiat quasi dolorum error aut. Nostrum, possimus.
+            Illo, id eveniet eum exercitationem ex quas, maiores earum at pariatur quisquam atque eius consequuntur corrupti ratione velit recusandae aliquam soluta dicta autem neque consequatur! Nihil ea dolorem amet aut!
+        </p>
+    </section>
+
+    <!-- Image Gallery -->
+    <section class="gallery-section">
+        <h1>Image Gallery</h1>
+        <div class="gallery-container">
+            <img id="galleryImage" src="images/Leonardo_Phoenix_10_A_frazzled_male_doctor_or_nurse_with_a_mix_2.jpg" alt="Gallery Image">
+            <div class="gallery-buttons">
+                <button class="prev" onclick="changeImage(-1)">Prev</button>
+                <button class="next" onclick="changeImage(1)">Next</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Accordion-style Tabs -->
+    <section class="tabs-section">
+        <h1>Tabs Section</h1>
+        <div class="tabs">
+            <button class="tablinks" onclick="openTab(event, 'Tab1')">Tab 1</button>
+            <button class="tablinks" onclick="openTab(event, 'Tab2')">Tab 2</button>
+            <button class="tablinks" onclick="openTab(event, 'Tab3')">Tab 3</button>
+        </div>
+        <div id="Tab1" class="tabcontent">
+            <h3>Tab 1</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem vel eius voluptatibus. Eaque laboriosam nesciunt quibusdam, reiciendis quod corporis labore cupiditate quos itaque iure mollitia eveniet! Neque rerum voluptas tempora!
+            Sapiente sint soluta obcaecati eligendi similique corrupti nemo quod consequatur officiis doloribus ab et, ratione repellendus? Voluptatem eius illum aut odit aliquid provident maxime, fugit, ex, quisquam dicta reprehenderit itaque..</p>
+        </div>
+        <div id="Tab2" class="tabcontent">
+            <h3>Tab 2</h3>
+            <p>Text your friend a random task to boggle their brain. Looking for a hilarious way to prank someone over text? Tell them about a mundane chore on your to-do list to leave them speechless. They’ll probably hit you back with a “Did you mean to text me?” because it’s so odd and uncalled for.</p>
+        </div>
+        <div id="Tab3" class="tabcontent">
+            <h3>Tab 3</h3>
+            <p>This is Tab 3 content <br>Legacy boot refers to the traditional BIOS-based boot process used by older computers. It's a process where the firmware (BIOS) searches for bootable media (like a hard drive or USB) and loads the Master Boot Record (MBR) to start the operating system. 
+Here's a more detailed explanation:
+BIOS (Basic Input/Output System):.</p>
+        </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+        <h1>Want to get in Touch with us?</h1>
+        <p>We are a brand name in the business of Providing quality Teaching Experience to our students</p>
+        <form class="form-contact">
+            <input type="text" id="name" name="name" placeholder="Name">
+            <input type="email" id="email" name="email" placeholder="Email">
+            <button class="submit">Send us a message</button>
+        </form>
+    </section>
+
+    <footer class="foot-text" id="footer">
+        <p>More links?</p>
+        &copy; Copyright protected chukwunonso <span>2025</span>. All rights reserved
+        <p>Visit us for a more splendid experience</p>
+        <div class="socials">
+            <a class="icons" href="www.facebook.com"><img src="images/facebook.png">Facebook</a>
+            <a class="icons" href="www.linkedln.com"><img src="images/linkedin.png">LinkedIn</a>
+            <a class="icons" href="www.gmail.com"><img src="images/mail.png">Email</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
